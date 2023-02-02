@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import WeatherApp from "./WeatherApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<h1> Hello Weather App</h1>);
+root.render(<WeatherApp />);
